@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Climate with Reza</string>
+    <string name="unauthorised_access_txt">Unauthorised access!</string>
+    <string name="city_error_txt">City not found!</string>
+    <string name="server_error_txt">Umm… Looks like server issue!</string>
+    <string name="general_error_txt">Oops!..Something went wrong.</string>
+    <string name="error_icon_content">Error icon</string>
+    <string name="not_available">--</string>
+
+    <string name="location_icon_content">Location header icon</string>
+
+    <string name="celsius">%1$s°C</string>
+    <string name="percent">%1$s%%</string>
+    <string name="speed">%1$skm/h</string>
 </resources>
