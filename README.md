@@ -6,8 +6,6 @@ I am Reza Farahani,
 
 Climate with Reza
 
-## Screenshot
-
 <img src="https://user-images.githubusercontent.com/3985692/224691712-246dbdb6-12cc-4456-b35b-524fa2821d7b.png" width="200" height="400" />
 
 
