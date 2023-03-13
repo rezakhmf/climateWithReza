@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-        ClimateWithRezaTheme {
-            AppNavigation()
-        }
+            ClimateWithRezaTheme {
+                AppNavigation()
+            }
         }
     }
 }

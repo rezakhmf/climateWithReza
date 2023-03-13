@@ -1,4 +1,4 @@
-package com.rezafarahani.climate.ui
+package com.rezafarahani.climate.ui.HomeScreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -15,12 +15,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.rezafarahani.climate.common.Extension.toCelsius
 import com.rezafarahani.climate.domain.model.Weather
-import com.rezafarahani.climate.navigation.ClimateWithRezaNavigation
+import com.rezafarahani.climate.ui.UIState
 import com.rezafarahani.climate.ui.component.ShowError
 import com.rezafarahani.climate.ui.component.ShowLoading
 import com.rezafarahani.climate.ui.theme.BackgroundGrey

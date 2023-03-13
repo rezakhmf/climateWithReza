@@ -1,4 +1,4 @@
-package com.rezafarahani.climate.ui
+package com.rezafarahani.climate.ui.HomeScreen
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -9,7 +9,7 @@ import com.rezafarahani.climate.common.UiText
 import com.rezafarahani.climate.domain.model.Weather
 import com.rezafarahani.climate.domain.repository.LocalStorageRepository
 import com.rezafarahani.climate.domain.usecase.weatherCity.GetTodaysWeatherReport
-import com.rezafarahani.climate.navigation.ClimateWithRezaDestination
+import com.rezafarahani.climate.ui.UIState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
@@ -18,8 +18,7 @@ import javax.inject.Inject
 @HiltViewModel
 class HomeViewModel @Inject constructor(
     private val getTodaysWeatherReportUseCase: GetTodaysWeatherReport,
-    private val getLocalStorageRepositoryUseCase: LocalStorageRepository,
-    savedStateHandle: SavedStateHandle
+    private val getLocalStorageRepositoryUseCase: LocalStorageRepository
 ) : ViewModel() {
 
 

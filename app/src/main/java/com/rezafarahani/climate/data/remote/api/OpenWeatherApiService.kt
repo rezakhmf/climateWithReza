@@ -9,6 +9,7 @@ interface OpenWeatherApiService {
     @GET("data/2.5/weather")
     suspend fun getTodaysWeatherReport(
         @Query("q") location: String,
-        @Query("APPID") AppId: String = "561d07fc6a328199a735ecf271575032"
+        //left here for convenience instead of reading from build config
+        @Query("APPID") AppId: String =  "561d07fc6a328199a735ecf271575032"
     ): WeatherDto
 }

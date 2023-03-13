@@ -1,7 +1,6 @@
 package com.rezafarahani.climate.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -10,7 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.rezafarahani.climate.common.DEFAULT_CITY_NAME
-import com.rezafarahani.climate.ui.HomeScreen
+import com.rezafarahani.climate.ui.HomeScreen.HomeScreen
 
 @Composable
 fun AppNavigation() {

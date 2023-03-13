@@ -32,5 +32,5 @@ object RepoModule {
     fun provideLocalStorageRepository(@ApplicationContext context: Context)
     : LocalStorageRepository =
         LocalStorageRepositoryImp(context = context)
-    
+
 }
