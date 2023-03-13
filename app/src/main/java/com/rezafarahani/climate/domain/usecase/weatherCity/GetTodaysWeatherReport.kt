@@ -17,7 +17,6 @@ class GetTodaysWeatherReport @Inject constructor(
 ) {
     operator fun invoke(cityName: String): Flow<ResultData<Weather>> = flow {
         try {
-            emit(ResultData.Loading)
             val weatherReport: Weather = repository.getTodaysWeatherReport(cityName).toWeather()
             emit(ResultData.Success(weatherReport))
         } catch (e: HttpException) {
